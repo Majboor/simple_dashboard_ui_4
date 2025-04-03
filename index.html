@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dashboard UI 4</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        
+        /* Hero Section Styles */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: linear-gradient(to bottom, #333, #555);
+            color: #fff;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 32px;
+        }
+        
+        /* Button Styles */
+        .button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 16px 32px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Simple Dashboard UI 4</h1>
+        <p>Modern minimalist design with a clean interface</p>
+        <button class="button">Get Started</button>
+    </div>
+    
+    <!-- JavaScript Code -->
+    <script>
+        // Add event listener to the button
+        document.querySelector('.button').addEventListener('click', function() {
+            // Display a simple alert message
+            alert('Welcome to Simple Dashboard UI 4!');
+        });
+    </script>
+</body>
+</html>
